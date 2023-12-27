@@ -329,9 +329,13 @@ textarea {
 
 #documents
 {
-  display: flex;
+  
 }
 #marksheet
+{
+  margin-left: 10px;
+}
+#certificates
 {
   margin-left: 10px;
 }
