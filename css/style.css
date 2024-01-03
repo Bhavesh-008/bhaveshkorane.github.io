@@ -630,6 +630,11 @@ textarea {
     animation: wheel 1.3s infinite;
     -webkit-animation: wheel 1.3s infinite; }
 
+
+  a:hover
+  {
+    color:red;
+  }
 @keyframes wheel {
   to {
     opacity: 0;
