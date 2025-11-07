@@ -661,3 +661,33 @@ textarea {
           height: 300px; /* Adjust the height for mobile devices */
       }
   }
+
+
+  
+.about__content-subtitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #222;
+}
+
+.skills__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.skills__skill {
+  background-color: #f3f3f3;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.skills__skill:hover {
+  background-color: #dbeafe; /* light blue hover */
+  transform: translateY(-2px);
+}
+

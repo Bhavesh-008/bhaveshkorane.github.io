@@ -1,342 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bhavesh Korane</title>
-    <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bhavesh Korane</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/bhavesh.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/bhavesh.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Bhavesh Korane</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey,I'm Bhavesh korane</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Passionate and ambitious computer science engineering student dedicated to making
+          a positive impact on society through the application of knowledge.
+          Eager to continually expand my skills and embrace new learning opportunities.
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D"
+          class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/Bhavesh-008" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/Bhaveshk_008" class="home-hero__social-icon-link">
+          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ" class="home-hero__social-icon-link">
+          <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://www.instagram.com/bhaveshkorane008/"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Seeking new career opportunities that align with my qualifications;
+          open to discreet inquiries on potential roles.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! I'm <strong>Bhavesh Korane</strong>, a <strong>B.Tech Computer Science Engineer</strong> from
+              Kolhapur,
+              currently working as a <strong>Software Engineer (L1)</strong> at <strong>Tekdi Technologies,
+                Pune</strong>.
+              I focus on <strong>backend development</strong> and <strong>AI integration</strong>, building scalable
+              systems using
+              <strong>Python, FastAPI, PostgreSQL, Docker, Redis</strong>, and <strong>Streamlit</strong>.
+            </p>
+
+            <p class="about__content-details-para">
+              My primary project, <strong>Skill India Digital Hub (SIDH)</strong>, involved developing dynamic backend
+              modules,
+              integrating <strong>pgSync</strong> with <strong>Elasticsearch</strong>, and building features for digital
+              CVs and certificates.
+              I also contributed to <strong>AI Practices</strong> — working on <strong>Sakhi API Integration</strong>
+              and
+              <strong>MCP Servers</strong>. I created an indexing service using <strong>Marqo</strong>,
+              developed front- and back-end systems with <strong>Replit</strong> and <strong>Cursor</strong>, and
+              deployed
+              production-ready solutions that integrated live APIs with LMS for intelligent query responses.
+            </p>
+
+            <p class="about__content-details-para">
+              I’ve been the <strong>President of LOGICODE</strong>, my college coding club, and captained the
+              <strong>Kabaddi team</strong> for two years — experiences that strengthened my leadership and teamwork
+              skills.
+              I’m also a <strong>GATE 2023 qualifier</strong> with consistent academic distinction.
+            </p>
+
+            <p class="about__content-details-para">
+              Beyond work, I’m an active problem solver with <strong>200+ DSA problems solved on LeetCode</strong>.
+              I’m passionate about <strong>LLMs, RAG pipelines, MCP architecture</strong>, and modern AI systems,
+              and I love exploring how backend intelligence can power real-world solutions.
+            </p>
+
+            <p class="about__content-details-para">
+              Always open to <strong>collaboration and learning</strong> opportunities in backend and AI engineering —
+              feel free to <a href="#contact"><strong>connect</strong></a> to exchange ideas or discuss projects.
+              <br>
+              <em>"Evolving through code, curiosity, and continuous improvement."</em>
+            </p>
+
           </div>
-          <span class="header__logo-sub">Bhavesh Korane</span>
-        </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
+          <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
         </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey,I'm Bhavesh korane</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Passionate and ambitious computer science engineering student dedicated to making
-             a positive impact on society through the application of knowledge.
-             Eager to continually expand my skills and embrace new learning opportunities.
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://github.com/Bhavesh-008" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://twitter.com/Bhaveshk_008" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://www.instagram.com/bhaveshkorane008/"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Seeking new career opportunities that align with my qualifications; 
-            open to discreet inquiries on potential roles.
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's
-                <strong>Bhavesh Korane</strong>
-                , and I'm a <strong> B.Tech CSE </strong> student located in
-                Kolhapur. I've qualified
-                <strong> GATE 2023 </strong>
-                and, till now, completed my entire education with distinction. I have worked as
-                <strong> President</strong> of LOGICODE, the coding club present in our college, and have led the my college kabaddi team for 2 years.
-                I love to solve problems on coding platforms such as <a href="https://www.codechef.com/users/bhavesh_2705"><u><b>Codechef</b></u></a> and <a href="https://leetcode.com/bk_2705/"><b><u>leetcode</u></b></a> also I have solved more than 400 coing questions on these platforms.
-              </p>
-              <p class="about__content-details-para">
-                I love to talk to people and am always ready to make new friends. I also want to establish new connections in the industry. Feel free to
-                <strong>contact</strong> me here.
-              </p>
-            </div>
-            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">C</div>
-                <div class="skills__skill">C++</div>
-                <div class="skills__skill">Java</div>
-                <div class="skills__skill">JDBC</div>
-                <div class="skills__skill">Database</div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+
+          <div class="skills">
+            <!-- Languages -->
+            <div class="skills__section">
+              <h4 class="about__content-subtitle">Languages</h4>
+              <div class="skills__group">
                 <div class="skills__skill">Python</div>
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">php</div>
-              <div class="skills__skill">Firebase</div>
-              <div class="skills__skill">GIT</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-           I have done 2 academic projects and currently working on the third
-          </span>
-        </h2>
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">C</div>
+                <div class="skills__skill">C++</div>
+                <div class="skills__skill">SQL</div>
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+              </div>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pagefult.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">study and analysis of page faults replacement algorithms</h3>
-              <p class="projects__row-content-desc">
-                This project was done in C++ language. In this 
-project we are comparing the working of the 
-Page fault Replacement algorithms.
-              </p>
+
+            <!-- Technologies -->
+            <div class="skills__section">
+              <h4 class="about__content-subtitle">Technologies</h4>
+              <div class="skills__group">
+                <div class="skills__skill">FastAPI</div>
+                <div class="skills__skill">Django</div>
+                <div class="skills__skill">PostgreSQL</div>
+                <div class="skills__skill">Redis</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">Streamlit</div>
+                <div class="skills__skill">Marqo</div>
+                <div class="skills__skill">Replit</div>
+                <div class="skills__skill">Cursor</div>
+                <div class="skills__skill">Elasticsearch (pgSync)</div>
+                <div class="skills__skill">Git</div>
+                <div class="skills__skill">Jira</div>
+              </div>
+
             </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/web_app.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">web application for student attendence system</h3>
-              <p class="projects__row-content-desc">
-                This was the team project and we cereated student attendence system for our collage.
-                I worked with the database and connected and managed the database.
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Collage predictor with the on the basis of JEE marks</h3>
-              <p class="projects__row-content-desc">
-                I am currently leading a dynamic team as the Group Leader for my final year project, where our focus is on developing an impactful predictive model. Within this multifaceted role, I bring expertise to diverse aspects of the project              </p>
+
+            <!-- Concepts -->
+            <div class="skills__section">
+              <h4 class="about__content-subtitle">Concepts</h4>
+
+
+
+              <!-- AI / Modern System Concepts -->
+              <div class="skills__group">
+                <div class="skills__skill">MCP Server Architecture</div>
+                <div class="skills__skill">Retrieval-Augmented Generation (RAG)</div>
+                <div class="skills__skill">Large Language Models (LLMs)</div>
+                <div class="skills__skill">AI API Integration</div>
+                <div class="skills__skill">Prompt Engineering</div>
+              </div>
+
+              <!-- Core Backend Concepts -->
+              <div class="skills__group">
+                <div class="skills__skill">RESTful API Design</div>
+                <div class="skills__skill">Object-Oriented Programming (OOP)</div>
+                <div class="skills__skill">Database Management</div>
+                <div class="skills__skill">Microservices</div>
+                <div class="skills__skill">Data Structures & Algorithms</div>
+                <div class="skills__skill">Containerization</div>
+                <div class="skills__skill">Cloud Deployment</div>
+              </div>
+
+
             </div>
           </div>
         </div>
+
       </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            feel free to contact on bhaveshkorane008@gmail.com
-          </span>
-        
+    </div>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here are my Academic projects
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpeg/collage_prediction.jpg" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">ML-Based College Prediction System</h3>
+            <p class="projects__row-content-desc">
+              In today’s competitive education landscape, choosing the right college can be difficult.
+              Our <strong>College Predictor</strong> simplifies this by analyzing students’
+              <strong>JEE scores</strong> and predicting suitable colleges using
+              <strong>machine learning algorithms</strong> and historical admission data.
+            </p>
+
+            <p class="projects__row-content-desc">
+              It uses datasets like opening/closing ranks, cutoff trends, and student preferences to provide accurate,
+              personalized predictions.
+              With secure login, a user-friendly interface, and <strong>real-time model updates</strong>, the system
+              offers reliable insights that reduce uncertainty and stress.
+            </p>
+
+            <p class="projects__row-content-desc">
+              <strong>Technologies Used:</strong> Python, Scikit-learn, Pandas, NumPy, Streamlit, PostgreSQL.
+            </p>
+
+
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/pagefult.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">study and analysis of page faults replacement algorithms</h3>
+            <p class="projects__row-content-desc">
+              This project was done in C++ language. In this
+              project we are comparing the working of the
+              Page fault Replacement algorithms.
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpeg/web_app.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">web application for student attendence system</h3>
+            <p class="projects__row-content-desc">
+              This was the team project and we cereated student attendence system for our collage.
+              I worked with the database and connected and managed the database.
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          feel free to contact on bhaveshkorane008@gmail.com
+        </span>
+
         <span class="heading-sec__main heading-sec__main--lt">My Resume</span>
         <div class="pdf-container">
-          <embed class="pdf-object" src="./documents/bhavesh_resume.pdf" type="application/pdf" />
-        </h2>
-      </div>
-      </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/Bhavesh-008">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/Bhaveshk_008">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/bhaveshkorane008/">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Bhavesh Koranae</h4>
-            <p class="main-footer__short-desc">
-              Seeking new career opportunities that align with my qualifications; open to discreet inquiries on potential roles.            </p>
+          <embed class="pdf-object" src="./documents/BhaveshKoraneResume.pdf" type="application/pdf" />
+
+
+      </h2>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer"
+              href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Bhavesh-008">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Bhaveshk_008">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ">
+              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/bhaveshkorane008/">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
           </div>
         </div>
-
-       
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Bhavesh Koranae</h4>
+          <p class="main-footer__short-desc">
+            Seeking new career opportunities that align with my qualifications; open to discreet inquiries on potential
+            roles. </p>
+        </div>
       </div>
-    </footer>
 
-    <script src="./index.js"></script>
-  </body>
+
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
