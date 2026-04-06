@@ -5,126 +5,111 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Bhavesh Korane</title>
-  <meta name="description" content="Portfolio Template for Developer" />
+  <title>Bhavesh Korane — Software Engineer & AI Builder</title>
+  <meta name="description" content="Bhavesh Korane — Software Engineer building production-grade AI systems using RAG, LLMs, and agentic workflows. Explore projects, skills, and contact info." />
 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index-modern.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="header">
+
+  <!-- ======================== HEADER ======================== -->
+  <header class="header" id="header">
     <div class="header__content">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
-          <img src="./assets/png/bhavesh.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+          <img src="./assets/png/bhavesh.png" alt="Bhavesh Korane" class="header__logo-img" />
         </div>
         <span class="header__logo-sub">Bhavesh Korane</span>
       </div>
       <div class="header__main">
         <ul class="header__links">
-          <li class="header__link-wrapper">
-            <a href="./index.html" class="header__link"> Home </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#about" class="header__link">About </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#projects" class="header__link">
-              Projects
-            </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#contact" class="header__link"> Contact </a>
-          </li>
+          <li class="header__link-wrapper"><a href="./index.html" class="header__link">Home</a></li>
+          <li class="header__link-wrapper"><a href="./index.html#about" class="header__link">About</a></li>
+          <li class="header__link-wrapper"><a href="./index.html#projects" class="header__link">Projects</a></li>
+          <li class="header__link-wrapper"><a href="./index.html#certifications" class="header__link">Certifications</a></li>
+          <li class="header__link-wrapper"><a href="./index.html#contact" class="header__link">Contact</a></li>
         </ul>
         <div class="header__main-ham-menu-cont">
           <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-            class="header__main-ham-menu-close d-none" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
         </div>
       </div>
     </div>
     <div class="header__sm-menu">
       <div class="header__sm-menu-content">
         <ul class="header__sm-menu-links">
-          <li class="header__sm-menu-link">
-            <a href="./index.html"> Home </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#about"> About </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#projects"> Projects </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#contact"> Contact </a>
-          </li>
+          <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
+          <li class="header__sm-menu-link"><a href="./index.html#about">About</a></li>
+          <li class="header__sm-menu-link"><a href="./index.html#projects">Projects</a></li>
+          <li class="header__sm-menu-link"><a href="./index.html#certifications">Certifications</a></li>
+          <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </header>
-  <section class="home-hero">
-    <div class="home-hero__content">
-      <h1 class="heading-primary">Hey,I'm Bhavesh korane</h1>
-      <div class="home-hero__info">
-        <p class="text-primary">
-          Software Engineer focused on building real-world AI systems using RAG, LLMs, and agentic workflows.
-          I work on scalable backend architectures and intelligent applications that combine retrieval, memory, and
-          tool-based reasoning.
-        </p>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__particles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero__content">
+      <div class="hero__eyebrow">
+        <span class="hero__status-dot"></span>
+        Available for opportunities
       </div>
-      <div class="home-hero__cta">
-        <a href="#projects" class="btn btn--bg">Projects</a>
+      <h1 class="hero__title">
+        Hey, I'm <span class="hero__name">Bhavesh Korane</span>
+      </h1>
+      <p class="hero__subtitle">
+        Software Engineer focused on building real-world <strong>AI systems</strong> using RAG, LLMs, and agentic workflows. I craft scalable backends and intelligent applications that combine retrieval, memory, and tool-based reasoning.
+      </p>
+      <div class="hero__cta-group">
+        <a href="#projects" class="hero__btn hero__btn--primary">View Projects</a>
+        <a href="#about" class="hero__btn hero__btn--secondary">About Me</a>
+      </div>
+      <div class="hero__tags">
+        <span class="hero__tag">🤖 LLMs & RAG</span>
+        <span class="hero__tag">⚡ FastAPI</span>
+        <span class="hero__tag">🧠 LangChain</span>
+        <span class="hero__tag">🐍 Python</span>
+        <span class="hero__tag">🐳 Docker</span>
       </div>
     </div>
-    <div class="home-hero__socials">
-      <div class="home-hero__social">
-        <a href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D"
-          class="home-hero__social-icon-link">
-          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://github.com/Bhavesh-008" class="home-hero__social-icon-link">
-          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://twitter.com/Bhaveshk_008" class="home-hero__social-icon-link">
-          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ" class="home-hero__social-icon-link">
-          <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://www.instagram.com/bhaveshkorane008/"
-          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
-          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-    </div>
-    <div class="home-hero__mouse-scroll-cont">
-      <div class="mouse"></div>
+    <div class="hero__socials">
+      <a href="https://www.linkedin.com/in/bhavesh-korane-1926b2226" class="home-hero__social-icon-link" target="_blank" rel="noreferrer">
+        <img src="./assets/png/linkedin-ico.png" alt="LinkedIn" class="home-hero__social-icon" />
+      </a>
+      <a href="https://github.com/Bhavesh-008" class="home-hero__social-icon-link" target="_blank" rel="noreferrer">
+        <img src="./assets/png/github-ico.png" alt="GitHub" class="home-hero__social-icon" />
+      </a>
+      <a href="https://twitter.com/Bhaveshk_008" class="home-hero__social-icon-link" target="_blank" rel="noreferrer">
+        <img src="./assets/png/twitter-ico.png" alt="Twitter" class="home-hero__social-icon" />
+      </a>
+      <a href="https://youtube.com/@engineeringstudent2832" class="home-hero__social-icon-link" target="_blank" rel="noreferrer">
+        <img src="./assets/png/yt-ico.png" alt="YouTube" class="home-hero__social-icon" />
+      </a>
+      <a href="https://www.instagram.com/bhaveshkorane008/" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank" rel="noreferrer">
+        <img src="./assets/png/insta-ico.png" alt="Instagram" class="home-hero__social-icon" />
+      </a>
     </div>
   </section>
+
+  <!-- ======================== ABOUT ======================== -->
   <section id="about" class="about sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
         <span class="heading-sec__main">About Me</span>
         <span class="heading-sec__sub">
-          Software Engineer building production-grade AI systems using RAG, LLMs, and agentic workflows for real-world
-          applications.
+          Software Engineer building production-grade AI systems using RAG, LLMs, and agentic workflows.
         </span>
       </h2>
       <div class="about__content">
@@ -132,60 +117,33 @@
           <h3 class="about__content-title">Get to know me!</h3>
           <div class="about__content-details">
             <p class="about__content-details-para">
-              Hey! I'm <strong>Bhavesh Korane</strong>, a <strong>B.Tech Computer Science Engineer</strong> from
-              Kolhapur,
-              currently working as a <strong>Software Engineer (L1)</strong> at <strong>Tekdi Technologies,
-                Pune</strong>.
+              Hey! I'm <strong>Bhavesh Korane</strong>, a <strong>B.Tech Computer Science Engineer</strong> from Kolhapur,
+              currently working as a <strong>Software Engineer (L1)</strong> at <strong>Tekdi Technologies, Pune</strong>.
               I focus on <strong>backend development</strong> and <strong>AI integration</strong>, building scalable
-              systems using
-              <strong>Python, FastAPI, PostgreSQL, Docker, Redis</strong>, and <strong>Streamlit</strong>.
+              systems using <strong>Python, FastAPI, PostgreSQL, Docker, Redis</strong>, and <strong>Streamlit</strong>.
             </p>
-
             <p class="about__content-details-para">
               My primary project, <strong>Skill India Digital Hub (SIDH)</strong>, involved developing dynamic backend
-              modules,
-              integrating <strong>pgSync</strong> with <strong>Elasticsearch</strong>, and building features for digital
-              CVs and certificates.
-              I also contributed to <strong>AI Practices</strong> — working on <strong>Sakhi API Integration</strong>
-              and
-              <strong>MCP Servers</strong>. I created an indexing service using <strong>Marqo</strong>,
-              developed front- and back-end systems with <strong>Replit</strong> and <strong>Cursor</strong>, and
-              deployed
-              production-ready solutions that integrated live APIs with LMS for intelligent query responses.
+              modules, integrating <strong>pgSync</strong> with <strong>Elasticsearch</strong>, and building features
+              for digital CVs and certificates. I also contributed to <strong>AI Practices</strong> — working on
+              <strong>Sakhi API Integration</strong> and <strong>MCP Servers</strong>.
             </p>
-
             <p class="about__content-details-para">
-              I’ve been the <strong>President of LOGICODE</strong>, my college coding club, and captained the
-              <strong>Kabaddi team</strong> for two years — experiences that strengthened my leadership and teamwork
-              skills.
-              I’m also a <strong>GATE 2023 qualifier</strong> with consistent academic distinction.
+              I've been the <strong>President of LOGICODE</strong>, my college coding club, and captained the
+              <strong>Kabaddi team</strong> for two years. I'm also a <strong>GATE 2023 qualifier</strong> and have
+              solved <strong>200+ DSA problems</strong> on LeetCode.
             </p>
-
             <p class="about__content-details-para">
-              Beyond work, I’m an active problem solver with <strong>200+ DSA problems solved on LeetCode</strong>.
-              I’m passionate about <strong>LLMs, RAG pipelines, MCP architecture</strong>, and modern AI systems,
-              and I love exploring how backend intelligence can power real-world solutions.
+              Always open to <strong>collaboration and learning</strong> — feel free to <a href="#contact"><strong>connect</strong></a>!
+              <br><em>"Evolving through code, curiosity, and continuous improvement."</em>
             </p>
-
-            <p class="about__content-details-para">
-              Always open to <strong>collaboration and learning</strong> opportunities in backend and AI engineering
-              feel free to <a href="#contact"><strong>connect</strong></a> to exchange ideas or discuss projects.
-              <br>
-              <em>"Evolving through code, curiosity, and continuous improvement."</em>
-            </p>
-
           </div>
-
-          <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-
-
+          <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact Me</a>
         </div>
+
         <div class="about__content-skills">
           <h3 class="about__content-title">My Skills</h3>
-
           <div class="skills">
-
-            <!-- 🔥 AI / LLM SYSTEMS (MOST IMPORTANT) -->
             <div class="skills__section">
               <h4 class="about__content-subtitle">AI / LLM Systems</h4>
               <div class="skills__group">
@@ -195,11 +153,9 @@
                 <div class="skills__skill">Vector Databases</div>
                 <div class="skills__skill">Semantic Search</div>
                 <div class="skills__skill">Tool Calling / Agents</div>
-                <div class="skills__skill">Memory Systems (Short & Long Term)</div>
+                <div class="skills__skill">Memory Systems</div>
               </div>
             </div>
-
-            <!-- 🧱 TECHNOLOGIES -->
             <div class="skills__section">
               <h4 class="about__content-subtitle">Technologies</h4>
               <div class="skills__group">
@@ -211,40 +167,24 @@
                 <div class="skills__skill">Redis</div>
                 <div class="skills__skill">Chroma</div>
                 <div class="skills__skill">Marqo</div>
-                <div class="skills__skill">Elasticsearch (pgSync)</div>
+                <div class="skills__skill">Elasticsearch</div>
                 <div class="skills__skill">Docker</div>
                 <div class="skills__skill">Streamlit</div>
                 <div class="skills__skill">Git</div>
-                <div class="skills__skill">Jira</div>
               </div>
             </div>
-
-            <!-- 🧠 CONCEPTS -->
             <div class="skills__section">
               <h4 class="about__content-subtitle">Concepts</h4>
-
-              <!-- AI SYSTEM DESIGN -->
               <div class="skills__group">
                 <div class="skills__skill">RAG Pipeline Design</div>
                 <div class="skills__skill">Agent Routing Systems</div>
-                <div class="skills__skill">LLM Evaluation</div>
-                <div class="skills__skill">Retrieval Optimization</div>
                 <div class="skills__skill">MCP Server Architecture</div>
-              </div>
-
-              <!-- BACKEND CORE -->
-              <div class="skills__group">
                 <div class="skills__skill">RESTful API Design</div>
                 <div class="skills__skill">Microservices</div>
-                <div class="skills__skill">Database Management</div>
                 <div class="skills__skill">Containerization</div>
-                <div class="skills__skill">Cloud Deployment</div>
-                <div class="skills__skill">Object-Oriented Programming (OOP)</div>
                 <div class="skills__skill">Data Structures & Algorithms</div>
               </div>
             </div>
-
-            <!-- 🧩 LANGUAGES (LOW PRIORITY NOW) -->
             <div class="skills__section">
               <h4 class="about__content-subtitle">Languages</h4>
               <div class="skills__group">
@@ -252,21 +192,18 @@
                 <div class="skills__skill">SQL</div>
                 <div class="skills__skill">Java</div>
                 <div class="skills__skill">C++</div>
-                <div class="skills__skill">C</div>
                 <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">HTML / CSS</div>
               </div>
             </div>
-
           </div>
         </div>
-
       </div>
     </div>
-    </div>
   </section>
-  <section id="projects" class="projects sec-pad">
+
+  <!-- ======================== PROJECTS ======================== -->
+  <section id="projects" class="projects-modern">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main">Projects</span>
@@ -275,203 +212,286 @@
         </span>
       </h2>
 
-      <div class="projects__content">
+      <!-- AI Projects Grid -->
+      <div class="proj-grid">
 
-        <!-- 🔥 PROJECT 1 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" class="projects__row-img" />
+        <!-- PROJECT 1 -->
+        <div class="proj-card">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/png/multi-agent-ai.png" alt="Multi-Agent AI Assistant" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/multi-agent-ai-assistant.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--progress">In Progress</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Multi-Agent AI Assistant (In Progress)</h3>
-            <p class="projects__row-content-desc">
-              Building a multi-agent AI system integrating RAG, SQL querying, and real-time web search into a unified
-              Telegram interface.
-              Includes intelligent routing, memory, and tool-based reasoning for dynamic problem solving.
-            </p>
-            <p class="projects__row-content-desc">
-              <strong>Tech:</strong> Python, LangChain, LangGraph, FastAPI, Vector DB, Telegram API
-            </p>
-            <a href="#" class="btn btn--med btn--theme">View Code</a>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">Multi-Agent AI Assistant</h3>
+            <p class="proj-card__desc">Multi-agent system integrating RAG, SQL querying, and real-time web search into a unified Telegram interface with intelligent routing and memory.</p>
+            <div class="proj-card__tags">
+              <span>Python</span><span>LangGraph</span><span>FastAPI</span><span>Vector DB</span><span>Telegram</span>
+            </div>
+            <a href="./projects/multi-agent-ai-assistant.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
-        <!-- 🔥 PROJECT 2 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" class="projects__row-img" />
+        <!-- PROJECT 2 -->
+        <div class="proj-card">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/png/ai-data-assistant.png" alt="AI Data Assistant" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/ai-data-assistant.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--done">Completed</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">AI Data Assistant (Natural Language → SQL)</h3>
-            <p class="projects__row-content-desc">
-              Developed an AI agent that converts natural language into SQL queries, executes them, and returns
-              structured results.
-              Supports CRUD operations with validation and context-aware responses using memory.
-            </p>
-            <p class="projects__row-content-desc">
-              <strong>Tech:</strong> Python, LangChain, SQLite/PostgreSQL, Streamlit, LLM APIs
-            </p>
-            <a href="#" class="btn btn--med btn--theme">View Code</a>
-          </div>
-        </div>
-
-        <!-- 🔥 PROJECT 3 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" class="projects__row-img" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">AI Research Assistant (Search + Memory)</h3>
-            <p class="projects__row-content-desc">
-              Built an AI assistant capable of real-time web search, summarization, and multi-turn conversations using
-              memory.
-              Designed for contextual and dynamic information retrieval.
-            </p>
-            <p class="projects__row-content-desc">
-              <strong>Tech:</strong> Python, LangChain, Streamlit, Groq API, Serper API
-            </p>
-            <a href="#" class="btn btn--med btn--theme">View Code</a>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">AI Data Assistant (NL → SQL)</h3>
+            <p class="proj-card__desc">AI agent that converts natural language into SQL queries, executes them, and returns structured results with CRUD support and context-aware memory.</p>
+            <div class="proj-card__tags">
+              <span>LangChain</span><span>PostgreSQL</span><span>Streamlit</span><span>LLM APIs</span>
+            </div>
+            <a href="./projects/ai-data-assistant.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
-        <!-- 🔥 PROJECT 4 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" class="projects__row-img" />
+        <!-- PROJECT 3 -->
+        <div class="proj-card">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/png/ai-research-assistant.png" alt="AI Research Assistant" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/ai-research-assistant.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--done">Completed</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">LLM Chat System (Streaming + Memory)</h3>
-            <p class="projects__row-content-desc">
-              Implemented a chatbot with real-time streaming responses and session-based memory for contextual
-              conversations.
-              Focused on responsiveness and improved user interaction.
-            </p>
-            <p class="projects__row-content-desc">
-              <strong>Tech:</strong> Python, Streamlit, LangChain, Gemini API
-            </p>
-            <a href="#" class="btn btn--med btn--theme">View Code</a>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">AI Research Assistant</h3>
+            <p class="proj-card__desc">AI assistant for real-time web search, summarization, and multi-turn conversations with memory for contextual and dynamic information retrieval.</p>
+            <div class="proj-card__tags">
+              <span>LangChain</span><span>Groq API</span><span>Serper API</span><span>Streamlit</span>
+            </div>
+            <a href="./projects/ai-research-assistant.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
-        <!-- 🧱 ACADEMIC PROJECTS SECTION -->
-        <div class="projects__row">
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Academic Projects</h3>
-            <p class="projects__row-content-desc">
-              Selected academic projects demonstrating foundational knowledge in algorithms, web development, and
-              machine learning.
-            </p>
+        <!-- PROJECT 4 -->
+        <div class="proj-card">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/png/llm-chat-system.png" alt="LLM Chat System" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/llm-chat-system.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--done">Completed</span>
+          </div>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">LLM Chat System</h3>
+            <p class="proj-card__desc">Chatbot with real-time streaming responses and session-based memory for contextual conversations, focused on responsiveness and smooth UX.</p>
+            <div class="proj-card__tags">
+              <span>Streamlit</span><span>LangChain</span><span>Gemini API</span>
+            </div>
+            <a href="./projects/llm-chat-system.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
+
+      </div><!-- /proj-grid -->
+
+      <!-- Academic Divider -->
+      <div class="academic-divider">
+        <div class="academic-divider__line"></div>
+        <span class="academic-divider__label">🎓 Academic Projects</span>
+        <div class="academic-divider__line"></div>
+      </div>
+      <p class="academic-divider__sub">Selected academic projects demonstrating foundational knowledge in algorithms, web development, and machine learning.</p>
+
+      <!-- Academic Grid -->
+      <div class="proj-grid proj-grid--academic">
 
         <!-- Academic 1 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/png/pagefult.png" class="projects__row-img" />
+        <div class="proj-card proj-card--academic">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/png/pagefult.png" alt="Page Fault Algorithms" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/page-fault-algorithms.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--academic">Academic</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Page Fault Replacement Algorithms</h3>
-            <p class="projects__row-content-desc">
-              Comparative study of page replacement algorithms implemented in C++ to analyze efficiency and performance.
-            </p>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">Page Fault Replacement Algorithms</h3>
+            <p class="proj-card__desc">Comparative study of FIFO, LRU, and Optimal page replacement algorithms in C++ — analysing efficiency and OS memory management behaviour.</p>
+            <div class="proj-card__tags">
+              <span>C++</span><span>OS Concepts</span><span>Algorithm Analysis</span>
+            </div>
+            <a href="./projects/page-fault-algorithms.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
         <!-- Academic 2 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/web_app.png" class="projects__row-img" />
+        <div class="proj-card proj-card--academic">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/jpeg/web_app.png" alt="Student Attendance System" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/student-attendance-system.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--academic">Academic</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Student Attendance Management System</h3>
-            <p class="projects__row-content-desc">
-              Web-based system for managing student attendance with database integration and user-friendly interface.
-            </p>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">Student Attendance Management System</h3>
+            <p class="proj-card__desc">Full-stack web app for managing student attendance with role-based access, real-time records, and automated reporting.</p>
+            <div class="proj-card__tags">
+              <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span>
+            </div>
+            <a href="./projects/student-attendance-system.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
         <!-- Academic 3 -->
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/collage_prediction.jpg" class="projects__row-img" />
+        <div class="proj-card proj-card--academic">
+          <div class="proj-card__img-wrap">
+            <img src="./assets/jpeg/collage_prediction.jpg" alt="ML College Prediction" class="proj-card__img" />
+            <div class="proj-card__overlay">
+              <a href="./projects/ml-college-prediction.html" class="proj-card__overlay-btn">View More →</a>
+            </div>
+            <span class="proj-card__badge proj-card__badge--academic">Academic</span>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">ML-Based College Prediction System</h3>
-            <p class="projects__row-content-desc">
-              Machine learning system that predicts suitable colleges based on JEE scores using historical admission
-              data.
-            </p>
+          <div class="proj-card__body">
+            <h3 class="proj-card__title">ML-Based College Prediction System</h3>
+            <p class="proj-card__desc">Machine learning system predicting suitable colleges based on JEE scores using Random Forest trained on historical admission data.</p>
+            <div class="proj-card__tags">
+              <span>Python</span><span>scikit-learn</span><span>Pandas</span><span>ML</span>
+            </div>
+            <a href="./projects/ml-college-prediction.html" class="proj-card__btn">View More →</a>
           </div>
         </div>
 
+      </div><!-- /proj-grid academic -->
+    </div>
+  </section>
+
+  <!-- ======================== CERTIFICATIONS ======================== -->
+  <section id="certifications" class="certs-section">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Certifications</span>
+        <span class="heading-sec__sub">Verified learning achievements and professional certifications.</span>
+      </h2>
+
+      <div class="certs-preview">
+        <!-- Add new certs here as list items -->
+        <div class="cert-item">
+          <div class="cert-item__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+            </svg>
+          </div>
+          <div class="cert-item__info">
+            <h3 class="cert-item__name">Learn SQL</h3>
+            <p class="cert-item__issuer">Codecademy</p>
+          </div>
+          <div class="cert-item__badge">Verified</div>
+        </div>
+        <!-- More certs will show on the full page -->
+      </div>
+
+      <div class="certs-cta">
+        <a href="./certifications.html" class="certs-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          View All Certifications
+        </a>
       </div>
     </div>
   </section>
+
+  <!-- ======================== CONTACT ======================== -->
   <section id="contact" class="contact sec-pad dynamicBg">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
         <span class="heading-sec__main heading-sec__main--lt">Contact</span>
         <span class="heading-sec__sub heading-sec__sub--lt">
-          feel free to contact on bhaveshkorane008@gmail.com
+          Feel free to reach out at <strong>bhaveshkorane008@gmail.com</strong>
         </span>
-
-        <span class="heading-sec__main heading-sec__main--lt">My Resume</span>
-        <div class="pdf-container">
-          <div style="text-align:center; margin-bottom:20px;">
-            <a href="./documents/Bhavesh_korane_resume.pdf" target="_blank" class="btn btn--med btn--theme">
-              View Full Resume
-            </a>
-          </div>
-
-          <div class="pdf-container" style="display:flex; justify-content:center;">
-            <iframe src="./documents/Bhavesh_korane_resume.pdf"
-              style="width:80%; height:700px; border:none; border-radius:10px;">
-            </iframe>
-          </div>
-
-
       </h2>
+
+      <span class="heading-sec__main heading-sec__main--lt" style="margin-top: 4rem; display:block;">My Resume</span>
+      <div class="pdf-container">
+        <div style="text-align:center; margin-bottom:20px;">
+          <a href="./documents/Bhavesh_korane_resume.pdf" target="_blank" class="btn btn--med btn--theme">
+            View Full Resume
+          </a>
+        </div>
+        <div style="display:flex; justify-content:center;">
+          <iframe src="./documents/Bhavesh_korane_resume.pdf"
+            style="width:80%; height:700px; border:none; border-radius:10px;">
+          </iframe>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- ======================== FOOTER ======================== -->
   <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer__upper">
         <div class="main-footer__row main-footer__row-1">
-          <h2 class="heading heading-sm main-footer__heading-sm">
-            <span>Social</span>
-          </h2>
+          <h2 class="heading heading-sm main-footer__heading-sm"><span>Social</span></h2>
           <div class="main-footer__social-cont">
-            <a target="_blank" rel="noreferrer"
-              href="https://www.linkedin.com/in/bhavesh-korane-1926b2226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZsiPl8%2B8Rzu8uzsSVY%2Fxig%3D%3D">
-              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhavesh-korane-1926b2226">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://github.com/Bhavesh-008">
-              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://twitter.com/Bhaveshk_008">
-              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="Twitter" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://youtube.com/@engineeringstudent2832?si=FyiDBZzZ8eFrfKWQ">
-              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+            <a target="_blank" rel="noreferrer" href="https://youtube.com/@engineeringstudent2832">
+              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="YouTube" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://www.instagram.com/bhaveshkorane008/">
-              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="Instagram" />
             </a>
           </div>
         </div>
         <div class="main-footer__row main-footer__row-2">
-          <h4 class="heading heading-sm text-lt">Bhavesh Koranae</h4>
+          <h4 class="heading heading-sm text-lt">Bhavesh Korane</h4>
           <p class="main-footer__short-desc">
-            Seeking new career opportunities that align with my qualifications; open to discreet inquiries on potential
-            roles. </p>
+            Seeking new career opportunities in backend and AI engineering. Open to collaboration and interesting projects.
+          </p>
         </div>
       </div>
-
-
+      <div class="main-footer__lower">
+        &copy; 2025 Bhavesh Korane. Built with passion.
+      </div>
     </div>
   </footer>
 
   <script src="./index.js"></script>
+  <script>
+    // Fade-in on scroll
+    const fadeEls = document.querySelectorAll('.proj-card, .about__content, .hero__content');
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    fadeEls.forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      obs.observe(el);
+    });
+
+    // Active nav highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header__link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+      });
+      navLinks.forEach(l => {
+        l.classList.remove('header__link--active');
+        if (l.getAttribute('href').includes(current)) l.classList.add('header__link--active');
+      });
+    });
+  </script>
 </body>
 
 </html>

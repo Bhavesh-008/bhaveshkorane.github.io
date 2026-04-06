@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Data Assistant â€” Bhavesh Korane</title>
+  <meta name="description" content="An AI agent that converts natural language into SQL queries, executes them, and returns structured results." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/index-modern.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body class="project-page">
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="../assets/png/bhavesh.png" alt="Bhavesh Korane" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Bhavesh Korane</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper"><a href="../index.html" class="header__link">Home</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#about" class="header__link">About</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#projects" class="header__link">Projects</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#contact" class="header__link">Contact</a></li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="../assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="../assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link"><a href="../index.html">Home</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#about">About</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#projects">Projects</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="project-hero">
+    <div class="project-hero__content">
+      <a href="../index.html#projects" class="project-hero__back">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+        Back to Projects
+      </a>
+      <div class="project-hero__badge project-hero__badge--complete">âœ… Completed</div>
+      <h1 class="project-hero__title">AI Data Assistant</h1>
+      <p class="project-hero__subtitle">
+        An intelligent AI agent that bridges the gap between natural language and databases â€” converting plain English questions into SQL queries, executing them, and presenting clean, structured results with validation and context-aware responses.
+      </p>
+      <div class="project-hero__meta">
+        <div class="project-hero__meta-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          2025
+        </div>
+        <div class="project-hero__meta-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          Personal Project
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-content">
+    <div class="project-content__inner">
+
+      <div class="project-gallery fade-in">
+        <div class="project-gallery__main">
+          <img src="../assets/png/ai-data-assistant.png" alt="AI Data Assistant Interface" />
+        </div>
+      </div>
+
+      <div class="project-description fade-in">
+        <h2 class="project-section-title">Project Overview</h2>
+        <p class="project-description__text">
+          The AI Data Assistant eliminates the need for users to know SQL syntax. By simply typing a question in plain English â€” like "How many orders were placed last month?" or "Show me the top 5 customers by revenue" â€” the system automatically generates the appropriate SQL query, validates it for safety, executes it against the database, and returns the results in a clean, readable format.
+        </p>
+        <p class="project-description__text">
+          The system supports full CRUD operations (Create, Read, Update, Delete) with built-in validation to prevent harmful or malformed queries. It uses conversation memory to maintain context across multiple interactions, allowing users to ask follow-up questions like "Now filter that by region" without repeating the full context.
+        </p>
+        <p class="project-description__text">
+          Built with LangChain for the NL-to-SQL pipeline and Streamlit for the user interface, the assistant provides an intuitive way for non-technical users to interact with databases. The LLM understands the database schema, generates optimized queries, and can explain results in natural language.
+        </p>
+      </div>
+
+      <div class="project-tech fade-in">
+        <h2 class="project-section-title">Tech Stack</h2>
+        <div class="project-tech__list">
+          <span class="project-tech__item">Python</span>
+          <span class="project-tech__item">LangChain</span>
+          <span class="project-tech__item">SQLite</span>
+          <span class="project-tech__item">PostgreSQL</span>
+          <span class="project-tech__item">Streamlit</span>
+          <span class="project-tech__item">LLM APIs</span>
+          <span class="project-tech__item">SQLAlchemy</span>
+        </div>
+      </div>
+
+      <div class="project-features fade-in">
+        <h2 class="project-section-title">Key Features</h2>
+        <div class="project-features__grid">
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            </div>
+            <h3 class="project-feature-card__title">Natural Language â†’ SQL</h3>
+            <p class="project-feature-card__desc">Type questions in plain English and the AI generates optimized SQL queries automatically, understanding your database schema.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="project-feature-card__title">Query Validation</h3>
+            <p class="project-feature-card__desc">Built-in safety checks validate generated queries before execution, preventing harmful operations and SQL injection.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+            </div>
+            <h3 class="project-feature-card__title">Full CRUD Support</h3>
+            <p class="project-feature-card__desc">Supports Create, Read, Update, and Delete operations â€” users can modify data through conversational commands.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="project-feature-card__title">Context-Aware Memory</h3>
+            <p class="project-feature-card__desc">Remembers previous queries in the conversation, allowing natural follow-up questions without repeating context.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-architecture fade-in">
+        <h2 class="project-section-title">How It Works</h2>
+        <div class="project-architecture__diagram">
+          <div class="project-architecture__steps">
+            <div class="project-architecture__step">
+              <div class="project-architecture__step-number">1</div>
+              <div class="project-architecture__step-content">
+                <h3 class="project-architecture__step-title">User Input</h3>
+                <p class="project-architecture__step-desc">User types a natural language question in the Streamlit chat interface.</p>
+              </div>
+            </div>
+            <div class="project-architecture__step">
+              <div class="project-architecture__step-number">2</div>
+              <div class="project-architecture__step-content">
+                <h3 class="project-architecture__step-title">Schema Understanding</h3>
+                <p class="project-architecture__step-desc">The LLM analyzes the database schema (tables, columns, relationships) and maps the question to the relevant data.</p>
+              </div>
+            </div>
+            <div class="project-architecture__step">
+              <div class="project-architecture__step-number">3</div>
+              <div class="project-architecture__step-content">
+                <h3 class="project-architecture__step-title">SQL Generation & Validation</h3>
+                <p class="project-architecture__step-desc">LangChain generates an optimized SQL query and validates it for safety and correctness before execution.</p>
+              </div>
+            </div>
+            <div class="project-architecture__step">
+              <div class="project-architecture__step-number">4</div>
+              <div class="project-architecture__step-content">
+                <h3 class="project-architecture__step-title">Execute & Present</h3>
+                <p class="project-architecture__step-desc">The validated query is executed, and results are formatted into readable tables or natural language summaries.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-links fade-in">
+        <h2 class="project-section-title">Links</h2>
+        <div class="project-links__buttons">
+          <a href="#" class="project-links__btn project-links__btn--primary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            View on GitHub
+          </a>
+          <a href="../index.html#projects" class="project-links__btn project-links__btn--secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+            Back to Portfolio
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm"><span>Social</span></h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhavesh-korane-1926b2226"><img class="main-footer__icon" src="../assets/png/linkedin-ico.png" alt="LinkedIn" /></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Bhavesh-008"><img class="main-footer__icon" src="../assets/png/github-ico.png" alt="GitHub" /></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Bhaveshk_008"><img class="main-footer__icon" src="../assets/png/twitter-ico.png" alt="Twitter" /></a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Bhavesh Korane</h4>
+          <p class="main-footer__short-desc">Software Engineer building AI systems with RAG, LLMs, and agentic workflows.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../index.js"></script>
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>
+
+
+

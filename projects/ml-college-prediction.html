@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML-Based College Prediction System â€” Bhavesh Korane</title>
+  <meta name="description" content="A machine learning system predicting suitable colleges based on JEE scores using historical admission data." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/index-modern.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body class="project-page">
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont"><img src="../assets/png/bhavesh.png" alt="Bhavesh Korane" class="header__logo-img" /></div>
+        <span class="header__logo-sub">Bhavesh Korane</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper"><a href="../index.html" class="header__link">Home</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#about" class="header__link">About</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#projects" class="header__link">Projects</a></li>
+          <li class="header__link-wrapper"><a href="../index.html#contact" class="header__link">Contact</a></li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="../assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="../assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link"><a href="../index.html">Home</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#about">About</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#projects">Projects</a></li>
+          <li class="header__sm-menu-link"><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="project-hero">
+    <div class="project-hero__content">
+      <a href="../index.html#projects" class="project-hero__back">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+        Back to Projects
+      </a>
+      <div class="project-hero__badge project-hero__badge--academic">ðŸŽ“ Academic</div>
+      <h1 class="project-hero__title">ML-Based College Prediction System</h1>
+      <p class="project-hero__subtitle">A machine learning system that predicts suitable colleges based on JEE scores using historical admission data â€” helping students make data-driven decisions about their higher education choices.</p>
+      <div class="project-hero__meta">
+        <div class="project-hero__meta-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          B.Tech Academic Project
+        </div>
+        <div class="project-hero__meta-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+          Machine Learning
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-content">
+    <div class="project-content__inner">
+
+      <div class="project-gallery fade-in">
+        <div class="project-gallery__main">
+          <img src="../assets/jpeg/collage_prediction.jpg" alt="ML-Based College Prediction System" />
+        </div>
+      </div>
+
+      <div class="project-description fade-in">
+        <h2 class="project-section-title">Project Overview</h2>
+        <p class="project-description__text">The ML-Based College Prediction System helps JEE aspirants make informed decisions during the college counselling process. By training on historical JEE admission data (cutoff ranks, branch preferences, and institutional records), the system predicts the likelihood of admission to specific colleges and branches for a given JEE rank.</p>
+        <p class="project-description__text">Students input their JEE rank, category, and preferred branch, and the system returns a ranked list of colleges where admission is likely, possible, or difficult â€” giving them a realistic view of their options before the official counselling rounds begin.</p>
+        <p class="project-description__text">The model was trained using multiple ML algorithms including Decision Tree, Random Forest, and KNN, with the Random Forest model performing best due to its ability to handle the complex, multi-factor nature of admission cutoffs. Feature engineering included normalising ranks by category and computing historical cutoff trends.</p>
+      </div>
+
+      <div class="project-tech fade-in">
+        <h2 class="project-section-title">Tech Stack</h2>
+        <div class="project-tech__list">
+          <span class="project-tech__item">Python</span>
+          <span class="project-tech__item">scikit-learn</span>
+          <span class="project-tech__item">Pandas</span>
+          <span class="project-tech__item">NumPy</span>
+          <span class="project-tech__item">Matplotlib</span>
+          <span class="project-tech__item">Jupyter Notebook</span>
+        </div>
+      </div>
+
+      <div class="project-features fade-in">
+        <h2 class="project-section-title">Key Features</h2>
+        <div class="project-features__grid">
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg></div>
+            <h3 class="project-feature-card__title">Multi-Model Comparison</h3>
+            <p class="project-feature-card__desc">Trained and compared Decision Tree, Random Forest, and KNN models to select the best-performing algorithm.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/></svg></div>
+            <h3 class="project-feature-card__title">Category-Aware Predictions</h3>
+            <p class="project-feature-card__desc">Accounts for JEE reservation categories (General, OBC, SC, ST) with separate cutoff analysis for accuracy.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/></svg></div>
+            <h3 class="project-feature-card__title">Historical Trend Analysis</h3>
+            <p class="project-feature-card__desc">Analyses multi-year admission cutoff trends to provide more reliable, trend-aware predictions.</p>
+          </div>
+          <div class="project-feature-card">
+            <div class="project-feature-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div>
+            <h3 class="project-feature-card__title">Ranked College List</h3>
+            <p class="project-feature-card__desc">Returns a probability-ranked list of colleges categorised as "Safe", "Moderate", and "Reach" based on your rank.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-architecture fade-in">
+        <h2 class="project-section-title">How It Works</h2>
+        <div class="project-architecture__diagram">
+          <div class="project-architecture__steps">
+            <div class="project-architecture__step"><div class="project-architecture__step-number">1</div><div class="project-architecture__step-content"><h3 class="project-architecture__step-title">Data Collection & Preprocessing</h3><p class="project-architecture__step-desc">Historical JEE admission data is cleaned, normalised, and feature-engineered (rank, category, branch, cutoffs).</p></div></div>
+            <div class="project-architecture__step"><div class="project-architecture__step-number">2</div><div class="project-architecture__step-content"><h3 class="project-architecture__step-title">Model Training</h3><p class="project-architecture__step-desc">Multiple ML models are trained and evaluated; Random Forest selected for highest prediction accuracy.</p></div></div>
+            <div class="project-architecture__step"><div class="project-architecture__step-number">3</div><div class="project-architecture__step-content"><h3 class="project-architecture__step-title">User Input</h3><p class="project-architecture__step-desc">User provides JEE rank, category, and preferred branch via the interface.</p></div></div>
+            <div class="project-architecture__step"><div class="project-architecture__step-number">4</div><div class="project-architecture__step-content"><h3 class="project-architecture__step-title">Prediction & Output</h3><p class="project-architecture__step-desc">Model predicts admission probabilities for all colleges, returning a ranked list with confidence levels.</p></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-links fade-in">
+        <h2 class="project-section-title">Links</h2>
+        <div class="project-links__buttons">
+          <a href="#" class="project-links__btn project-links__btn--primary"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>View on GitHub</a>
+          <a href="../index.html#projects" class="project-links__btn project-links__btn--secondary"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>Back to Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm"><span>Social</span></h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhavesh-korane-1926b2226"><img class="main-footer__icon" src="../assets/png/linkedin-ico.png" alt="LinkedIn" /></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Bhavesh-008"><img class="main-footer__icon" src="../assets/png/github-ico.png" alt="GitHub" /></a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Bhavesh Korane</h4>
+          <p class="main-footer__short-desc">Software Engineer building AI systems with RAG, LLMs, and agentic workflows.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../index.js"></script>
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
+
+
+
